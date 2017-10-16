@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Educacion</title>
+</head>
+<body>
+	<svg width="600px" heigth="400px" viewBox="0 0 1200 400">
+		<image width="400" heigth="400" xlink:href="imagen/Logo.svg">
+	</svg>
+	<h1>Hoja de Vida</h1>
+	<h2>Daniel Javier Torres Celis</h2>
+	<ul>
+	<li><h3>Fecha de nacimeinto:26/02/1993--------Lugar de nacimiento:Bogotá D.C--Colombia</h3></li>
+	</ul>
+	<ul>
+	<li>
+	<a href="index.html">Inicio</a>
+	</li>
+	<li>
+	<a href="educacion.html">Educacion</a>
+	</li>
+	<li>
+	<a href="experiencia.html">Experiencia</a>
+	</li>
+	</ul>
+	<h2>Educación</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<td><strong>Año</strong></td>
+				<td><strong>Institución</strong></td>
+				<td><strong>Lugar</strong></td>
+				<td><strong>¿Culminó?</strong></td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2009</td>
+				<td>Libertador</td>
+				<td>Bogotá</td>
+				<td>si</td>
+			</tr>
+			<tr>
+				<td>2016</td>
+				<td>ECCI</td>
+				<td>Bogotá</td>
+				<td>si</td>
+			</tr>
+			<tr>
+				<td>2017</td>
+				<td>Sena</td>
+				<td>Bogotá</td>
+				<td>No</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Agregar Estudios</h2>
+	<form action="/action_page.php">
+	<fieldset>
+	<label for="año"><strong>Año:</strong></label>
+	<select required>
+		<option>2016</option>
+		<option>2015</option>
+		<option>2014</option>
+		<option>2013</option>
+		<option>2012</option>
+		<option>2011</option>
+		<option>2010</option>
+		<option>2009</option>
+		<option>2008</option>
+		<option>2007</option>
+		<option>2006</option>
+		<option>2005</option>
+		<option>2004</option>
+		<option>2003</option>
+	</select>
+	<br>
+	<label for="Institucion"><strong>Institucion:</strong></label><input type="text" id="institucion" required><br>
+	<label for="Lugar"><strong>Lugar:</strong>
+	<textarea id="lugar" required></textarea><br>
+	<label for="Culmino"><strong>¿Culminó?</strong>
+	<input type="radio" id="culmino" required>Si
+	<input type="radio" id="culmino" required>No<br>
+	<input type="submit" name="enviar">
+	</fieldset>
+	</form>
+	<ul>
+		<li><strong>E-mail:</strong><a href="mailto:danni.torres621@gmail.com">danni.torres621@gmail.com</a></li>
+		<li><strong>Telefono:</strong>6021107 - 3212605991</li>
+		<li><strong>Dirección:</strong>Cra 87j # 51-14 sur Bogotá Colombia</a></li>
+	</ul>
+</body>
+</html>
